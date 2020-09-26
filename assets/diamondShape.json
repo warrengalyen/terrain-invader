@@ -1,0 +1,27 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"diamond": {
+		"type": "fromPhysicsEditor",
+		"label": "diamond",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": true,
+				"vertices": [
+					[ { "x":16, "y":30 }, { "x":29, "y":13 }, { "x":24, "y":4 }, { "x":8, "y":4 }, { "x":3, "y":13 } ]
+				]
+			}
+		]
+	}
+}

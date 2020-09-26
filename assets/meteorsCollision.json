@@ -1,0 +1,47 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"meteors": {
+		"type": "fromPhysicsEditor",
+		"label": "meteors",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "meteor64x64",
+				"isSensor": false,
+				"circle": {
+					"x": 32.97872340425532,
+					"y": 33.19148936170214,
+					"radius": 31.702841631257677
+				}
+			},
+			{
+				"label": "meteor32x32",
+				"isSensor": false,
+				"circle": {
+					"x": 16.808510638297875,
+					"y": 82.76595744680851,
+					"radius": 16.171612481412662
+				}
+			},
+			{
+				"label": "meteor16x16",
+				"isSensor": false,
+				"circle": {
+					"x": 42.978723404255305,
+					"y": 74.68085106382979,
+					"radius": 8.311157251864435
+				}
+			}
+		]
+	}
+}

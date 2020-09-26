@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "meteors.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 66,
+				"h": 100
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "meteor64x64.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "meteor32x32.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 67,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "meteor16x16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 35,
+						"y": 67,
+						"w": 16,
+						"h": 16
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:06a4be34f0aae7a1e8439c3bffc58bcc:3ed0a0fb089fee6608fbb57419e5b666:c2d9fb8ba8f67da6da86a926e353808f$"
+	}
+}

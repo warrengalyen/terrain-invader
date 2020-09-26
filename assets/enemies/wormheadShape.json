@@ -1,0 +1,30 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"wormHead": {
+		"type": "fromPhysicsEditor",
+		"label": "wormHead",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":51, "y":4 }, { "x":43, "y":12 }, { "x":58, "y":40 }, { "x":61, "y":14 }, { "x":57, "y":8 } ],
+					[ { "x":47, "y":64 }, { "x":47, "y":48 }, { "x":16, "y":48 }, { "x":17, "y":64 } ],
+					[ { "x":14, "y":4 }, { "x":7, "y":8 }, { "x":3, "y":17 }, { "x":7, "y":40 }, { "x":23, "y":12 } ],
+					[ { "x":23, "y":12 }, { "x":7, "y":40 }, { "x":16, "y":48 }, { "x":47, "y":48 }, { "x":58, "y":40 }, { "x":43, "y":12 } ]
+				]
+			}
+		]
+	}
+}
